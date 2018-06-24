@@ -1,0 +1,55 @@
+
+
+* TODO Notes for Today<2018-06-17 Sun> :)
+
+
+
+** Spacemacs Keybindings :0
+   | key       | function                                                     |
+   | SPC ff    | file find                                                    |
+   | SPC h     | help                                                         |
+   | SPC h d k | What does key do                                             |
+   | SPC f f   | find file                                                    |
+   | SPC g s   | git status (Starts a new git respositary if it dosent exist) |
+   | SP        |                                                              |
+
+   * key binings
+| J | join line |
+|   |           |
+
+#+BEGIN_SRC sh
+cd /Users/zacbowmar/Desktop/Notes/codenames  
+python codenames.py 
+#+END_SRC
+*Recover Files
+| Recover-This-File|Recovers File |
+https://github.com/thomasahle/codename
+https://github.com/thomasahle/codename
+
+#+BEGIN_SRC sh
+brew install wget
+#+END_SRC
+
+#+BEGIN_SRC sh
+git clone https://github.com/thomasahle/codename
+#+END_SRC
+
+
+
+#+BEGIN_SRC emacs-lisp
+(define-key global-map (kbd "M-k") 'avy-goto-char)
+#+END_SRC
+
+** code block
+<s TAB
+
+
+#+BEGIN_SRC python
+
+#+END_SRC
+
+https://pip.readthedocs.io/en/stable/installing/
+
+pip install numpy
+
+Control C E V 
